@@ -12,7 +12,7 @@ begin
     gem.authors = ["Alex Vollmer"]
     gem.files = FileList["lib/**/*.rb", "bin/*", "spec/**/*"]
 
-    gem.add_dependency "mechanize", "~>1.0.0"
+    gem.add_dependency "mechanize", ">=1.0.0"
     gem.add_dependency "clip", ">=1.0.1"
     gem.add_dependency "sqlite3-ruby", "~>1.2"
 
